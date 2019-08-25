@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--suppress JSAnnotator -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <button @click="handleClick">点我</button>
+    <input type="text" v-model="num">
+    <button @click="num++">+</button>
+    <h1>
+        <span v-text="name"></span>非常帅!<br>
+        {{num}}位女神为其着迷！
+    </h1>
+    <span v-text="name"></span>非常帅!<br>
+    <span v-html="name"></span>非常帅!<br>
+
+    <hr>
+
+    <!-- v-model -->
+    <h1>课程</h1>
+    <input type="checkbox" v-model="lessons" value="java"/>java<br>
+    <input type="checkbox" v-model="lessons" value="python"/>python<br>
+    <input type="checkbox" v-model="lessons" value="c++"/>c++<br>
+
+    <h1>
+        已购买：{{lessons.join(',')}}
+    </h1>
+
+    <hr>
+
+    <!-- v-on -->
+    <div style="width: 100px;height: 100px;background: antiquewhite" @click.stop="print('div')">
+        div
+        <button @click.stop="print('button')">点我试试</button>
+        <a href="http://www.baidu.com" @click.prevent="print('baidu')">百度一下</a>
+    </div>
+
+    <!--  v-for  -->
+    <ul>
+        <li v-for="(u,i) in users" :key="i">
+            {{i}} {{u.name + "," + u.gender + "," + u.age}}
+        </li>
+        <li v-for="(u,i) in users[0]">
+            {{u + "," + i}}
+        </li>
+    </ul>
+    <hr>
+
+    <!--  v-if  -->
+    <button @click="show = !show">点击切换</button>
+    <h1 v-if="show">
+        你好！
+    </h1>
+    <ul v-for="i in 5" v-if="i%2 === 0">
+        <li>{{i}}</li>
+    </ul>
+</div>
+    <script src="node_modules/vue/dist/vue.js"></script>
+<script>
+    const app = new Vue({
+        el:"#app",//element,vue作用的标签
+        data:{
+            name: "",
+            num: 1,
+            lessons: [],
+            users:[
+                {name:'柳岩', gender:'女', age: 21},
+                {name:'虎哥', gender:'男', age: 30},
+                {name:'范冰冰', gender:'女', age: 24},
+                {name:'刘亦菲', gender:'女', age: 18},
+                {name:'古力娜扎', gender:'女', age: 25}
+            ],
+            show: false
+        },
+        methods:{
+            handleClick(){
+                console.log(this);
+                console.log("hello");
+            },
+            print(msg){
+                console.log(msg);
+            }
+        },
+        created(){
+            this.name = "胡歌";
+            // this.name = "<font color='blue'>胡歌</font>"
+            // setTimeout(() => this.name = "胡歌",1000);
+        }
+    });
+</script>
+</body>
+</html>

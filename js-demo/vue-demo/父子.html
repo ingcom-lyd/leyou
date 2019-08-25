@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--suppress JSAnnotator -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <introduce v-bind:title="msg"></introduce>
+    <lessons v-bind:items="lessons"></lessons>
+</div>
+
+    <script src="node_modules/vue/dist/vue.js"></script>
+<script>
+
+    const introduce = {
+        template: "<h1>{{title}}</h1>",
+        props: ['title']
+    };
+
+    const lessons = {
+        template: "<ul><li v-for='lesson in items'>{{lesson}}</li></ul>",
+        props:['items']
+    };
+
+    const app = new Vue({
+        el:"#app",//element,vue作用的标签
+        data:{
+            msg: "大家好，我是渣渣辉!",
+            lessons: ['java','php','python']
+        },
+        components: {
+            introduce,
+            lessons
+        }
+    });
+</script>
+</body>
+</html>

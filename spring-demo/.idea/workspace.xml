@@ -1,0 +1,1382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71248779-7cc6-4537-ada2-bcc168e15365" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/cloud-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/es-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/src/main/java/com/leyou/EsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/src/main/java/com/leyou/es/pojo/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/src/main/java/com/leyou/es/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/src/test/java/com/leyou/es/demo/EsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/target/classes/com/leyou/EsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/target/classes/com/leyou/es/pojo/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/target/classes/com/leyou/es/repository/ItemRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/es-demo/target/test-classes/com/leyou/es/demo/EsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/cn/itcast/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/cn/itcast/config/JdbcProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/cn/itcast/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/test/java/cn/itcast/mapper/UserMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dysms-demo/target/classes/com/leyou/demo/SmsDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../helloworld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_messaging_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/itcast-rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/META-INF/itcast-rabbitmq.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/direct/Recv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/direct/Recv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/direct/Recv2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/direct/Recv2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/direct/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/fanout/Recv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/fanout/Recv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/fanout/Recv2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/fanout/Recv2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/fanout/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/simple/Recv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/simple/Recv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/simple/Recv2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/simple/Recv2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/simple/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/spring/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/spring/Listener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/topic/Recv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/topic/Recv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/topic/Recv2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/topic/Recv2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/topic/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/util/ConnectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/work/Recv$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/work/Recv.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/work/Recv2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/work/Recv2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/classes/cn/itcast/rabbitmq/work/Send.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../itcast-rabbitmq/target/test-classes/cn/itcast/rabbitmq/spring/MqDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-cli-demo/vue-cli-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/hello2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/hello3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.common.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.common.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.esm.browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.esm.browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.runtime.common.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.runtime.common.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/dist/vue.runtime.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/directives/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/append.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/props.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component-root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/recycle-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-for.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-if.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-on.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/recycle-list/v-once.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/compiler/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/components/richtext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/components/transition-group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/components/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/directives/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/modules/attrs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/modules/class.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/modules/events.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/modules/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/modules/transition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/patch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/recycle-list/render-component-template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/src/platforms/weex/runtime/recycle-list/virtual-component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/types/options.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/types/plugin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/types/vnode.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/node_modules/vue/types/vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/父子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js-demo/vue-demo/父子2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/java/com/leyou/demo/redisdemo/RedisDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../redis-demo/src/test/java/com/leyou/demo/redisdemo/RedisDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/config/StudentBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/TestApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/config/StudentBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/itheima/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/.idea/yun.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/leyou.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/src/main/java/com/leyou/auth/entity/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/src/main/java/com/leyou/auth/utils/JwtConstans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/src/main/java/com/leyou/auth/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/src/main/java/com/leyou/auth/utils/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/src/main/java/com/leyou/auth/utils/RsaUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/src/test/java/com/leyou/auth/utils/JwtUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/target/classes/com/leyou/auth/entity/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/target/classes/com/leyou/auth/utils/JwtConstans.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/target/classes/com/leyou/auth/utils/JwtUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/target/classes/com/leyou/auth/utils/ObjectUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/target/classes/com/leyou/auth/utils/RsaUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-common/target/test-classes/com/leyou/auth/utils/JwtUtilsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/src/main/java/com/leyou/LyAuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/src/main/java/com/leyou/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/src/main/java/com/leyou/auth/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/src/main/java/com/leyou/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/src/main/java/com/leyou/auth/web/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/target/classes/com/leyou/LyAuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/target/classes/com/leyou/auth/client/UserClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/target/classes/com/leyou/auth/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/target/classes/com/leyou/auth/service/AuthService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/ly-auth-service/target/classes/com/leyou/auth/web/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-auth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/LyCartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/cart/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/cart/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/cart/interceptor/UserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/cart/pojo/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/cart/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/java/com/leyou/cart/web/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/LyCartApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/cart/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/cart/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/cart/interceptor/UserInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/cart/pojo/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/cart/service/CartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-cart/target/classes/com/leyou/cart/web/CartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/ly-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/advice/CommonExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/dto/CartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/exception/LyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/mapper/BaseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/utils/NumberUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/vo/ExceptionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/src/main/java/com/leyou/common/vo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/META-INF/ly-common.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/dto/CartDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/enums/ExceptionEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/exception/LyException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/mapper/BaseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/utils/CookieUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/utils/IdWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/utils/JsonUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/utils/NumberUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/vo/ExceptionResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-common/target/classes/com/leyou/common/vo/PageResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/src/main/java/com/leyou/gateway/config/FilterProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/src/main/java/com/leyou/gateway/config/GlobalCorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/src/main/java/com/leyou/gateway/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/src/main/java/com/leyou/gateway/filter/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/target/classes/com/leyou/gateway/LyGateway.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/target/classes/com/leyou/gateway/config/FilterProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/target/classes/com/leyou/gateway/config/GlobalCorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/target/classes/com/leyou/gateway/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-gateway/target/classes/com/leyou/gateway/filter/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/CategoryAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/SpecAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/SpecificationAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Sku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpecGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpecParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Specification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Spu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/SpuDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/pojo/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/META-INF/ly-item-interface.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/BrandAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/CategoryAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/GoodAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/SpecAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/api/SpecificationAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Brand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Sku.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpecParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Specification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Spu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/SpuDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-interface/target/classes/com/leyou/item/pojo/Stock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/LyItemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpecGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpecParamMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpecificationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpuDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/SpuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/StockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/SpecController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/SpecificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/test/java/com/leyou/item/mapper/JsonObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/test/java/com/leyou/item/mapper/SpecGroupMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/test/java/com/leyou/item/mapper/SpecparamMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/test/java/com/leyou/item/mapper/SpuDetailMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/src/test/java/com/leyou/item/service/GoodsServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/META-INF/ly-item-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/LyItemApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/BrandMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SkuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecGroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecParamMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpecificationMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/SpuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/mapper/StockMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/BrandService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/SpecService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/service/SpecificationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/BrandController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/SpecController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/classes/com/leyou/item/web/SpecificationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/META-INF/ly-item-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/mapper/JsonObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/mapper/Param.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/mapper/SpecGroupMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/mapper/SpecparamMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/mapper/SpuDetailMapperTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/mapper/SpuDetailMapperTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-item/ly-item-service/target/test-classes/com/leyou/item/service/GoodsServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/ly-order.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/LyOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/client/AddressClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/IdWorkerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/IdWorkerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/PayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/PayProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/config/WXPayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/dto/OrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/enums/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/enums/PayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/interceptor/UserInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/mapper/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/mapper/OrderStatusMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/pojo/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/pojo/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/utils/PayHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/web/NotifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/java/com/leyou/order/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/LyOrderApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/client/AddressClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/client/AddressClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/IdWorkerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/IdWorkerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/MvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/PayConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/PayProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/config/WXPayConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/dto/AddressDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/dto/OrderDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/enums/OrderStatusEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/enums/PayState.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/interceptor/UserInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/mapper/OrderMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/mapper/OrderStatusMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/pojo/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/pojo/OrderStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/utils/PayHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/web/NotifyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-order/target/classes/com/leyou/order/web/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/src/main/java/com/leyou/page/mq/ItemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/com/leyou/LyPageApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/com/leyou/page/client/BrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/com/leyou/page/client/CategoryClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/com/leyou/page/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/com/leyou/page/client/SpecClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/com/leyou/page/mq/ItemListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/classes/templates/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-page/target/test-classes/com/leyou/page/service/PageServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-registry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-registry/src/main/java/com/leyou/LyRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-registry/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-registry/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-registry/target/classes/com/leyou/LyRegistry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/ly-search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/LySearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/client/BrandClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/client/CategoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/client/GoodsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/client/SpecClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/client/SpecificationClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/mq/ItemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/repository/GoodRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/java/com/leyou/search/web/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/test/java/com/leyou/search/client/CategoryClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/test/java/com/leyou/search/repository/GoodRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/src/test/java/com/leyou/search/repository/Param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/META-INF/ly-search.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/LySearchApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/client/BrandClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/client/CategoryClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/client/GoodsClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/client/SpecClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/client/SpecificationClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/mq/ItemListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/pojo/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/pojo/SearchRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/pojo/SearchResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/repository/GoodRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/service/SearchService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/service/SearchService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/classes/com/leyou/search/web/SearchController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/test-classes/META-INF/ly-search.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/test-classes/com/leyou/search/client/CategoryClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/test-classes/com/leyou/search/repository/GoodRepositoryTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/test-classes/com/leyou/search/repository/GoodRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/test-classes/com/leyou/search/repository/Param.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-search/target/test-classes/com/leyou/search/repository/Value.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-sms/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-sms/target/classes/com/leyou/LySmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-sms/target/classes/com/leyou/sms/config/SmsProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-sms/target/test-classes/com/leyou/sms/mq/SmsListenerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/src/main/java/com/leyou/upload/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/src/main/java/com/leyou/upload/config/UploadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/src/test/java/com/leyou/upload/FdfsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/target/classes/com/leyou/LyUploadApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/target/classes/com/leyou/upload/config/FastClientImporter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/target/classes/com/leyou/upload/config/UploadProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-upload/target/test-classes/com/leyou/upload/FdfsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-interface/src/main/java/com/leyou/user/api/UserApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-interface/target/classes/com/leyou/user/api/UserApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-interface/target/classes/com/leyou/user/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-service/src/main/java/com/leyou/user/web/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-service/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-service/target/classes/com/leyou/LyUserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-service/target/classes/com/leyou/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/ly-user/ly-user-service/target/classes/com/leyou/user/utils/CodecUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/leyou/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/upload/5b028530N51eee7d4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/upload/5be66a11Nb72df941.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../yun/upload/护眼模式_20190324104416.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/dist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/.idea/leyou-manage-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/.gitrepo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/components/MyComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/components/cascader/Cascader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/components/form/Upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/components/messages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/components/tree/Tree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/components/tree/TreeItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/mockDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/pages/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/pages/item/Brand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/pages/item/BrandForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/pages/item/GoodsForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/pages/item/MyBrand.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-manage-web/leyou-manage-web/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/.idea/leyou-portal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/copyright.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-JD-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-addressList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-cooperation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-getOrderInfo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-login-manage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-myOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-pay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-payfail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-paysuccess.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-sampling.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-seckill-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-seckill-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-seckillOrder.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-shop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-shoplogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-success-cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-weixinpay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/pages-zoom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/vuetify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/webbase.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/widget-cartPanelView.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/css/widget-jquery.autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-moon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-moon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-moon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-pc.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-pc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-pc.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-pc.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-tb.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-tb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-tb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-tb.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-touch.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-touch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-touch.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/fonts/icon-touch.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/foot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/getOrderInfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-order-evaluate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-order-pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-order-receive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-order-send.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-orderDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-person-collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-person-footmark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-setting-address-complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-setting-address-phone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-setting-address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-setting-info.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home-setting-safe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/57b51ea9Nb862ca5e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/cooperation_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/down-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/empty_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/erweima.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/gotop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/list.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/login-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/manage-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/photo_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/sampling_head.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/seckillbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/shi_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/shop-intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/shop-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/shop-part.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/t.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/title_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/_/y24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/ali.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/pay5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/pay/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/dp01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/dp02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/dp03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/dp04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/intro01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/intro02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/intro03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/l-m01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/mobile01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/mobile02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/mobile03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/mobile04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/mobile05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/mobile06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/part01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/part02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/part03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/phone/phone14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/zoom/b1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/zoom/b2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/zoom/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/zoom/s1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/zoom/s2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/assets/img/zoom/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/banner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/banner3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/banner4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/barrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/brand_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/cartPanelViewIcons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/choosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/duihuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-b02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/floor-1-b03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/goods.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/icon-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/interest01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/interest02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/interest03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/interest04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/interest05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/interest06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/like_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/linker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/mod-list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/quan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/sina.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/today01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/today02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/today03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/today04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/wx_cz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/img/zoom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/czFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/model/cartModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/addressList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/getOrderInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/jquery.slideunlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/login-manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/person-collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/person-footmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/seckill-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/shoplogin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/shortcut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/sm-city-picker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/pages/top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/jquery/jquery.cookie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/vue/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/vue/vuetify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/widget/cartPanelView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/widget/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/widget/nav-portal-top.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/js/widget/nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/pay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/payfail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/paysuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/normalize/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/sui/sui-append.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/sui/sui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/plugins/sui/sui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/seckill-index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/seckill-item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/shortcut.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/side.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/success-cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../静态原型/leyou-portal/top.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/TestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/pojo/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/config/StudentBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/TestApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/pojo/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/config/StudentBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/itheima/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="307" />
+    <option name="y" value="13" />
+    <option name="width" value="1570" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itheima" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18496802" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/config/StudentBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/itheima/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
